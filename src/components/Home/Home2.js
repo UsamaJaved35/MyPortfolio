@@ -27,7 +27,7 @@ function Home2() {
             I’m particularly fascinated by emerging tech, especially <i><b className="purple">Blockchain</b></i>, and always eager to explore new horizons in the development world.
             <br />
             <br />
-            Whether it’s building dynamic front-end experiences with <i><b className="purple">React.js/Next.js</b></i> or handling complex back-end logic with <i><b className="purple">Node.js/Rails</b></i>, I love turning ideas into functional, well-architected products.
+            Whether it’s building dynamic front-end experiences with <i><b className="purple">React.js/Next.js</b></i> or handling complex back-end logic with <i><b className="purple">Node.js/Ruby on Rails</b></i>, I love turning ideas into functional, well-architected products.
             <br />
             <br />
             Let's build something cool together!

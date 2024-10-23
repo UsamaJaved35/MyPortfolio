@@ -6,9 +6,9 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
+  DiRuby,
+  DiAws,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -16,9 +16,12 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiMysql,
+  SiTailwindcss,
+  SiRedux,
+  SiElasticsearch,
+  SiJest,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
-
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -29,7 +32,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiRuby/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -59,10 +62,22 @@ function Techstack() {
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElasticsearch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJest />
       </Col>
     </Row>
   );

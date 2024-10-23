@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaEnvelope, FaLinkedinIn, FaMailchimp } from "react-icons/fa";
+import { FaEnvelope, FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
+  // let date = new Date();
   // let year = date.getFullYear();
   return (
     <Container fluid className="footer">
