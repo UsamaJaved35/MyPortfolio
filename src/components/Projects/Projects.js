@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import img from "../../Assets/Projects/1.png";
+import blogger from "../../Assets/Projects/blogger.png";
+import carforce from "../../Assets/Projects/carforce.png";
+import newsMonkey from "../../Assets/Projects/newsmonkey.png";
+import estamp from "../../Assets/Projects/estampveri.png";
 
 function Projects() {
   return (
@@ -21,70 +20,58 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={0} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={img}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="FlixGenie"
+              description="FlixGenie is a movie discovery application built with React that allows users to explore and browse through movies using the TMDB (The Movie Database) API. The app fetches various movie categories like Now Playing, Popular, and Upcoming, and displays them with a user-friendly interface."
+              ghLink="https://github.com/UsamaJaved35/flixGenie"
+              demoLink="https://flixgenie.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={blogger}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Blogger"
+              description="This project is a backend for a blogging platform built with Node.js, Express.js, and MongoDB, featuring secure JWT-based authentication, comprehensive CRUD operations for managing blog posts, and a scalable, maintainable architecture. It includes robust error handling and input validation through middleware and is designed to integrate seamlessly with a frontend built using React.js."
+              ghLink="https://github.com/UsamaJaved35/Blogger-frontend"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={carforce}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="CarForce"
+              description="The Carforce project is a multi-tenant CRM system designed for managing car auctions and client relationships, developed using modern web technologies. It streamlines the auction process by integrating key mapping solutions, revamping the Auction module with Firebase, and automating tasks such as car ad posting. The platform includes a preference module for targeted marketing, API integrations with external teams, and optimization of performance bottlenecks, ensuring a seamless experience for users managing large-scale car auctions."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://dubizzle.empgautos.com/admin/login"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={newsMonkey}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="News Monkey"
+              description="NewsMonkey is a news application that fetches the latest news from various categories using an external API and presents it to users in a clean, easy-to-navigate interface. The app features infinite scrolling, allowing users to continuously browse through articles without the need to refresh or navigate to new pages. Built with React for a dynamic user experience and styled using Bootstrap for responsive design, NewsMonkey offers a seamless way to stay updated on current events across different categories."
+              ghLink="https://github.com/UsamaJaved35/NewsMonkey"
+              demoLink="https://usamajaved35.github.io/NewsMonkey/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={estamp}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="E Stamp Verification System (FYP)"
+              description="I developed an E-stamp Verification System using blockchain technology, featuring a ReactJS frontend and a NodeJS server. The system efficiently verifies the authenticity and integrity of digital documents, detecting tampering within 30 seconds. Key technologies include Multer for image storage, Sharp for image processing, Tesseract.js for text extraction, and PDFPoppler for handling PDFs. The extracted text is hashed using the SHA256 algorithm and stored on the blockchain, ensuring data integrity. A smart contract built with Solidity and integrated with the Metamask wallet allows secure and immutable storage on the Alchemy Block network, supported by the Hardhat library for development and testing."
+              ghLink="https://github.com/UsamaJaved35/FYP"
+              demoLink="https://usamajaved35.github.io/FYP/"
             />
           </Col>
         </Row>
