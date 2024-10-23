@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.bde93721.css",
+    "main.js": "/MyPortfolio/static/js/main.82d9475c.js",
+    "static/js/415.4d6acbeb.chunk.js": "/MyPortfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/newsmonkey.png": "/MyPortfolio/static/media/newsmonkey.116609909e63e22bd911.png",
+    "static/media/1.png": "/MyPortfolio/static/media/1.42f6539009e1eb68fc70.png",
+    "static/media/blogger.png": "/MyPortfolio/static/media/blogger.f033335675802589a61c.png",
+    "static/media/estampveri.png": "/MyPortfolio/static/media/estampveri.2bcc87153b758e9a7e12.png",
+    "static/media/carforce.png": "/MyPortfolio/static/media/carforce.9e756ed401a6327c3abb.png",
+    "static/media/home-main.svg": "/MyPortfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/MyPortfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Usama-Javed-M-2.pdf": "/MyPortfolio/static/media/Usama-Javed-M-2.a21aadac4ade01b6e02b.pdf",
+    "static/media/home-bg.jpg": "/MyPortfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/MyPortfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/MyPortfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/MyPortfolio/index.html",
+    "main.bde93721.css.map": "/MyPortfolio/static/css/main.bde93721.css.map",
+    "main.82d9475c.js.map": "/MyPortfolio/static/js/main.82d9475c.js.map",
+    "415.4d6acbeb.chunk.js.map": "/MyPortfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bde93721.css",
+    "static/js/main.82d9475c.js"
+  ]
+}
