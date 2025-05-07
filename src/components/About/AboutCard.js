@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
-  const companyName = process.env.REACT_APP_COMPANY_NAME;
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -12,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Usama Javed </span>
             from <span className="purple"> Lahore, Pakistan.</span>
             <br />
-            I am currently employed as a software engineer at {companyName}.
+            I am currently employed as a software engineer at Aerodyne Group.
             <br />
             I have completed my Bachelors in Software Engineering from PUCIT/FCIT.
             <br />

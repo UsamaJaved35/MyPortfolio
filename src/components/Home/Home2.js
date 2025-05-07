@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar1.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -18,7 +18,7 @@ function Home2() {
             LET ME <span className="purple"> INTRODUCE </span> MYSELF
           </h1>
           <p className="home-about-body">
-            I’m a passionate software engineer with over 2 years of experience, working across various technologies to bring ideas to life. 
+            I’m a passionate software engineer with over 3 years of experience, working across various technologies to bring ideas to life. 
             <br />
             <br />
             My expertise lies in modern development stacks like the <i><b className="purple">MERN Stack</b></i> and <i><b className="purple">Ruby on Rails</b></i>, allowing me to craft scalable web applications.
@@ -33,7 +33,7 @@ function Home2() {
             Let's build something cool together!
           </p>
         </Col>
-        <Col md={4} className="myAvtar">
+        <Col md={3} className="myAvtar">
           <Tilt>
             <img src={myImg} className="img-fluid" alt="avatar" />
           </Tilt>

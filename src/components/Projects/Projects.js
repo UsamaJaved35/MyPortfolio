@@ -7,6 +7,7 @@ import blogger from "../../Assets/Projects/blogger.png";
 import carforce from "../../Assets/Projects/carforce.png";
 import newsMonkey from "../../Assets/Projects/newsmonkey.png";
 import estamp from "../../Assets/Projects/estampveri.png";
+import dronos from "../../Assets/Projects/dronos.png";
 
 function Projects() {
   return (
@@ -33,12 +34,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={blogger}
+              imgPath={dronos}
               isBlog={false}
-              title="Blogger"
-              description="This project is a backend for a blogging platform built with Node.js, Express.js, and MongoDB, featuring secure JWT-based authentication, comprehensive CRUD operations for managing blog posts, and a scalable, maintainable architecture. It includes robust error handling and input validation through middleware and is designed to integrate seamlessly with a frontend built using React.js."
-              ghLink="https://github.com/UsamaJaved35/Blogger-frontend"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              title="DRONOS - AI‑Powered Drone Asset Monitoring Platform"
+              description="Developed a comprehensive drone-as-a-service solution that transforms traditional asset monitoring through AI-driven automation. The platform processes and analyzes large volumes of drone-captured imagery, enabling predictive maintenance and intelligent insights. Integrated cloud computing technologies to help asset-owning companies transition from manual inspections to automated monitoring systems, improving operational efficiency and infrastructure resilience."
+              demoLink="https://dronos.ai/"
             />
           </Col>
 
@@ -50,6 +50,17 @@ function Projects() {
               description="The Carforce project is a multi-tenant CRM system designed for managing car auctions and client relationships, developed using modern web technologies. It streamlines the auction process by integrating key mapping solutions, revamping the Auction module with Firebase, and automating tasks such as car ad posting. The platform includes a preference module for targeted marketing, API integrations with external teams, and optimization of performance bottlenecks, ensuring a seamless experience for users managing large-scale car auctions."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://dubizzle.empgautos.com/admin/login"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogger}
+              isBlog={false}
+              title="Blogger"
+              description="This project is a backend for a blogging platform built with Node.js, Express.js, and MongoDB, featuring secure JWT-based authentication, comprehensive CRUD operations for managing blog posts, and a scalable, maintainable architecture. It includes robust error handling and input validation through middleware and is designed to integrate seamlessly with a frontend built using React.js."
+              ghLink="https://github.com/UsamaJaved35/Blogger-frontend"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
